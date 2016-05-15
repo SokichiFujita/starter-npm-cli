@@ -68,7 +68,6 @@ SOFTWARE.
 
   const readme =
 `# ${package}
-========================
 
 `;
 

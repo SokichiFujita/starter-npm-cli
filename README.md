@@ -1,5 +1,4 @@
 # starter-npm-cli
-========================
 
 A project generator to develop a npm CLI package.
 

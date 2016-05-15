@@ -81,7 +81,7 @@ SOFTWARE.
   createFile(`./${package}/package.json`, packageJSON);
   createFile(`./${package}/bin/index.js`, indexJS);
   createFile(`./${package}/LICENSE`, license);
-  createFile(`./${package}/README`, readme);
+  createFile(`./${package}/README.md`, readme);
 }
 
 main();

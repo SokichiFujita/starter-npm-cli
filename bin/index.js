@@ -5,7 +5,7 @@ const exec = require('child_process').execSync;
 const fs = require('fs');
 const path = require('path');
 
-const setupProject = (author, package) => { 
+const setupProject = (package, author) => { 
 
   const packageJSON =
 `{
@@ -102,7 +102,7 @@ function main() {
 
 function showUsage() {
   console.log('Usage:');
-  console.log('starter-npm-cli [Author] [Project Name]');
+  console.log('starter-npm-cli [Project Name] [Author Name]');
   process.exit(-1);
 }
 

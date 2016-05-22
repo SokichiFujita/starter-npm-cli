@@ -9,7 +9,7 @@ npm install -g starter-npm-cli
 ## Usage
 
 ```
-starter-npm-cli [Author_Name] [Package_Name]
+starter-npm-cli [Package_Name] [Author_Name]
 ```
 
 ## Directory structure
